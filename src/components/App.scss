@@ -1,0 +1,79 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  background-color: #ededed;
+  .logo {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 1rem;
+  }
+
+  .title {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #777777;
+  }
+
+  .user-greeting {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 1rem;
+  }
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+table.earthquake-list {
+  td {
+    text-align: center;
+  }
+  th {
+    cursor: pointer;
+  }
+}
+.page-title {
+  color: #444444;
+}
+.value,
+.label {
+  display: inline-flex;
+}
+.label {
+  width: 6rem;
+  color: #444444;
+  font-weight: 600;
+}
+.value {
+  width: 20rem;
+  padding-left: 1rem;
+  color: #777777;
+}
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  .profile-image {
+    width: 10rem;
+    height: 10rem;
+    padding: 0 2rem;
+  }
+}
+.user-greeting,
+.list-title {
+  a {
+    color: #0011bb;
+  }
+  a:visited {
+    color: #6600cc;
+  }
+}

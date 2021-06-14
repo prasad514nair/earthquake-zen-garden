@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
-import axios from "axios";
 import Home from "./Home";
-import "./App.scss";
+import "./App.css";
 import JSONResult from "../data.json";
 import Header from "./common/Header";
 import Detail from "./Detail";

@@ -25,21 +25,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.css$/,
-        use: [
-          { loader: "style-loader" },
-          {
-            loader: "css-loader",
-            options: {
-              modules: true,
-              importLoaders: 1,
-            },
-          },
-          { loader: "postcss-loader" },
-        ],
-      },
-      {
-        test: /\.s[ac]ss$/i,
+        test: /\.css$/i,
         use: [
           // Creates `style` nodes from JS strings
           "style-loader",

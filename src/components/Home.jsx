@@ -1,12 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import useSortableData from "./helper/sortData";
+import sortableData from "./helper/sortData";
 import moment from "moment";
 
 const Home = (props) => {
-  const { items, requestSort, sortConfig } = useSortableData(
-    props.data.features || []
-  );
+  const { items, requestSort } = sortableData(props.data.features || []);
   return (
     <div className="main-container">
       {props.data.metadata && (
